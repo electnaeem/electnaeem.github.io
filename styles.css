@@ -357,6 +357,14 @@ ul > li > i {
    text-decoration: underline;
 }
 
+a:link {
+    color: #414141;
+}
+
+a:visited {
+    color: #00B3DA;
+}
+
 /*
 @media only screen and (min-width: 480px) {
     #content {
