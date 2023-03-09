@@ -189,6 +189,12 @@ body {
         #00FFF0 */
 }
 
+#logo {
+    width: 50%;
+    height: 50%;
+    max-width: 150px;
+}
+
 #header {
     display: flex;
     justify-content: center;
@@ -197,8 +203,15 @@ body {
     padding: 10px 0px;
 }
 
+#image {
+    width: 50%;
+    height: 50%;
+    max-width: 200px;
+}
+
 .bigText {
     text-align: center;
+    font-size: 250%;
     font-family: 'Dancing Script';
     color: #00B3DA;
     margin: 10px;
@@ -206,33 +219,15 @@ body {
 
 .bigTextBlue {
     text-align: center;
+    font-size: 250%;
     font-family: 'Dancing Script';
     color: #FFFFFF;
     margin: 0px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 480px) {
-    .bigText {
-        font-size: 650%;
-    }
-
-    .bigTextBlue {
-        font-size: 650%;
-    }
-}
-
-@media only screen and (min-width: 480px) {
-    .bigText {
-        font-size: 250%;
-    }
-
-    .bigTextBlue {
-        font-size: 250%;
-    }
-}
-
 .text {
     text-align: center;
+    font-size: 115%;
     font-family: Raleway;
     font-weight: 500;
     color: #414141;
@@ -243,6 +238,7 @@ body {
 
 .textBlue {
     text-align: center;
+    font-size: 130%;
     font-family: Raleway;
     font-weight: 500;
     color: #FFFFFF;
@@ -252,26 +248,6 @@ body {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 480px) {
-    .text {
-        font-size: 250%;
-    }
-
-    .textBlue {
-        font-size: 300%;
-    }
-}
-
-@media only screen and (min-width: 480px) {
-    .text {
-        font-size: 115%;
-    }
-
-    .textBlue {
-        font-size: 130%;
-    }
-}
-
 #whyme {
     margin-top: 10px;
     background-color: #00B3DA;
@@ -279,7 +255,7 @@ body {
 
 ul {
     text-align: center;
-    font-size: 250%;
+    font-size: 115%;
     font-family: Raleway;
     font-weight: 500;
     color: #FFFFFF;
@@ -290,36 +266,12 @@ ul {
     list-style-type: square;
 }
 
-    ul > li {
-        margin: 15px 0px;
-    }
-
-        ul > li > i {
-            color: #414141;
-        }
-
-@media only screen and (max-width: 480px) {
-    #logo {
-        width: 500px;
-    }
-
-    #image {
-        width: 500px;
-    }
+ul > li {
+    margin: 15px 0px;
 }
 
-@media only screen and (min-width: 480px) {
-    #logo {
-        width: 200px;
-    }
-
-    #image {
-        width: 200px;
-    }
-
-    ul {
-        font-size: 115%;
-    }
+ul > li > i {
+    color: #414141;
 }
 
 #plansBox {
@@ -352,7 +304,7 @@ ul {
     font-size: 400%;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman';
-    font-style: italic;
+    font-style: italic; 
     margin: 10px;
 }
 
@@ -368,8 +320,8 @@ ul {
 }
 
 #calendar {
-    padding-bottom: 0px;
-    text-decoration: underline;
+   padding-bottom: 0px;
+   text-decoration: underline;
 }
 
 a:link {
