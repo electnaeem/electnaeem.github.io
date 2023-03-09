@@ -3,7 +3,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 700;
-    src: url(https://github.com/googlefonts/DancingScript/blob/master/fonts/ttf/DancingScript-Bold.ttf) format('truetype');
+    src: url(https://github.com/googlefonts/DancingScript/raw/master/fonts/ttf/DancingScript-Bold.ttf) format('truetype');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 600;
-    src: url(https://github.com/googlefonts/DancingScript/blob/master/fonts/ttf/DancingScript-SemiBold.ttf) format('truetype');
+    src: url(https://github.com/googlefonts/DancingScript/raw/master/fonts/ttf/DancingScript-SemiBold.ttf) format('truetype');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
-    src: url(https://github.com/googlefonts/DancingScript/blob/master/fonts/ttf/DancingScript-Medium.ttf) format('truetype');
+    src: url(https://github.com/googlefonts/DancingScript/raw/master/fonts/ttf/DancingScript-Medium.ttf) format('truetype');
 }
 
 @font-face {
@@ -27,7 +27,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    src: url(https://github.com/googlefonts/DancingScript/blob/master/fonts/ttf/DancingScript-Regular.ttf) format('truetype');
+    src: url(https://github.com/googlefonts/DancingScript/raw/master/fonts/ttf/DancingScript-Regular.ttf) format('truetype');
 }
 
 @font-face {
