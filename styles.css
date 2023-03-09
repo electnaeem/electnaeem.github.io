@@ -233,7 +233,6 @@ body {
 
 .text {
     text-align: center;
-    font-size: 250%;
     font-family: Raleway;
     font-weight: 500;
     color: #414141;
@@ -244,7 +243,6 @@ body {
 
 .textBlue {
     text-align: center;
-    font-size: 300%;
     font-family: Raleway;
     font-weight: 500;
     color: #FFFFFF;
@@ -252,6 +250,16 @@ body {
     margin: 0px;
     line-height: 120%;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    .text {
+        font-size: 250%;
+    }
+
+    .textBlue {
+        font-size: 300%;
+    }
 }
 
 @media only screen and (min-width: 480px) {
@@ -290,15 +298,17 @@ ul {
             color: #414141;
         }
 
-#logo {
-    width: 500px;
+@media only screen and (max-width: 480px) {
+    #logo {
+        width: 500px;
+    }
+
+    #image {
+        width: 500px;
+    }
 }
 
-#image {
-    width: 500px;
-}
-
-@media only screen and  (min-width: 480px) {
+@media only screen and (min-width: 480px) {
     #logo {
         width: 200px;
     }
