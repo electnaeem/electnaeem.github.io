@@ -189,12 +189,6 @@ body {
         #00FFF0 */
 }
 
-#logo {
-    width: 50%;
-    height: 50%;
-    max-width: 150px;
-}
-
 #header {
     display: flex;
     justify-content: center;
@@ -203,15 +197,9 @@ body {
     padding: 10px 0px;
 }
 
-#image {
-    width: 50%;
-    height: 50%;
-    max-width: 200px;
-}
-
 .bigText {
     text-align: center;
-    font-size: 40px;
+    font-size: 650%;
     font-family: 'Dancing Script';
     color: #00B3DA;
     margin: 10px;
@@ -219,33 +207,53 @@ body {
 
 .bigTextBlue {
     text-align: center;
-    font-size: 250%;
+    font-size: 650%;
     font-family: 'Dancing Script';
     color: #FFFFFF;
     margin: 0px 10px 10px 10px;
 }
 
+@media only screen and (min-width: 480px) {
+    .bigText {
+        font-size: 250%;
+    }
+
+    .bigTextBlue {
+        font-size: 250%;
+    }
+}
+
 .text {
     text-align: center;
-    font-size: 115%;
+    font-size: 250%;
     font-family: Raleway;
     font-weight: 500;
     color: #414141;
     padding: 10px;
     margin: 0px;
-    line-height: 30px;
+    line-height: 160%;
 }
 
 .textBlue {
     text-align: center;
-    font-size: 130%;
+    font-size: 300%;
     font-family: Raleway;
     font-weight: 500;
     color: #FFFFFF;
     padding: 0px 10px 5px 10px;
     margin: 0px;
-    line-height: 25px;
+    line-height: 120%;
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 480px) {
+    .text {
+        font-size: 115%;
+    }
+
+    .textBlue {
+        font-size: 130%;
+    }
 }
 
 #whyme {
@@ -255,57 +263,46 @@ body {
 
 ul {
     text-align: center;
-    font-size: 115%;
+    font-size: 250%;
     font-family: Raleway;
     font-weight: 500;
     color: #FFFFFF;
     padding: 0px 10px;
     margin: 0px;
-    line-height: 30px;
+    line-height: 160%;
     list-style-position: inside;
     list-style-type: square;
 }
 
-ul > li {
-    margin: 15px 0px;
+    ul > li {
+        margin: 15px 0px;
+    }
+
+        ul > li > i {
+            color: #414141;
+        }
+
+#logo {
+    width: 500px;
 }
 
-ul > li > i {
-    color: #414141;
+#image {
+    width: 500px;
 }
 
-/*@media only screen and (max-width: 480px) {
-    #whyTextBox {
-        flex-direction: column;
-        padding: 10px 0px 0px 0px;
+@media only screen and  (min-width: 480px) {
+    #logo {
+        width: 200px;
     }
 
-    #endorsementsBox {
-        border-bottom: 1px solid #FFFFFF;
-        padding: 5px 0px 0px 0px;
+    #image {
+        width: 200px;
     }
 
-    #plansBox {
-        border-top: 1px solid #FFFFFF;
-        padding: 15px 0px 0px 0px;
+    ul {
+        font-size: 115%;
     }
 }
-
-@media only screen and (min-width: 480px) {
-    #whyTextBox {
-        flex-direction: row;
-        padding: 10px 0px;
-    }
-
-    #endorsementsBox {
-        border-right: 2px solid #FFFFFF;
-        padding: 0px 5px;
-    }
-
-    #plansBox {
-        padding: 0px 5px;
-    }
-}*/
 
 #plansBox {
     border-top: 2px solid #FFFFFF;
@@ -337,7 +334,7 @@ ul > li > i {
     font-size: 400%;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman';
-    font-style: italic; 
+    font-style: italic;
     margin: 10px;
 }
 
@@ -353,8 +350,8 @@ ul > li > i {
 }
 
 #calendar {
-   padding-bottom: 0px;
-   text-decoration: underline;
+    padding-bottom: 0px;
+    text-decoration: underline;
 }
 
 a:link {
@@ -364,34 +361,3 @@ a:link {
 a:visited {
     color: #00B3DA;
 }
-
-/*
-@media only screen and (min-width: 480px) {
-    #content {
-        display: none;
-    }
-    
-    #block-box {
-        display: flex;
-    }
-
-    body {
-        background-color: #6F6F6F;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #content {
-        display: initial;
-    }
-
-    #block-box {
-        display: none;
-    }
-
-    body {
-        background-color: #FFFFFF;
-    }
-}
-
-*/
