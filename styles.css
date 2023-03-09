@@ -199,7 +199,6 @@ body {
 
 .bigText {
     text-align: center;
-    font-size: 650%;
     font-family: 'Dancing Script';
     color: #00B3DA;
     margin: 10px;
@@ -207,10 +206,19 @@ body {
 
 .bigTextBlue {
     text-align: center;
-    font-size: 650%;
     font-family: 'Dancing Script';
     color: #FFFFFF;
     margin: 0px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .bigText {
+        font-size: 650%;
+    }
+
+    .bigTextBlue {
+        font-size: 650%;
+    }
 }
 
 @media only screen and (min-width: 480px) {
